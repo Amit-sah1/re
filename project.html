@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="ture", initial-scale="1.0">
+    <title>my Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* background-color: #E5E5E5; */
+            background-color: #FAFAFA;
+            position: absolute;
+            width: 100rem;
+            height: 210rem;
+            left: 0px;
+            top: 5px;
+            overflow: hidden;
+        }
+
+        .link {
+            /* margin-top: -2%; */
+            /* width: 1920px;
+            height: 10vh;
+            background-color: red;
+            margin-top: -6px; */
+            position: absolute;
+            width: 1920px;
+            height: 58px;
+            left: 0px;
+            top: -1px;
+            /* background-color: red;
+ */
+            background: #FAFAFA;
+        }
+
+        .logo {
+            /* width: 5%;
+            height: 98%;
+            padding-left: 16px; */
+            position: absolute;
+            width: 168px;
+            height: 51px;
+            left: 15px;
+            top: 0px;
+        }
+
+        .p {
+            position: absolute;
+            width: 52px;
+            height: 19px;
+            left: 1042px;
+            top: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+
+        .n {
+            position: absolute;
+            width: 52px;
+            height: 19px;
+            left: 1229px;
+            top: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+
+        }
+
+        .m {
+            position: absolute;
+            width: 52px;
+            height: 19px;
+            left: 1130px;
+            top: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+
+        }
+
+        .o {
+            position: absolute;
+            width: 52px;
+            height: 19px;
+            left: 1329px;
+            top: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            border: 2px solid rgba(0, 132, 255, 1);
+            border-radius: 5px;
+
+        }
+
+        /* .o{
+    width: 65px;
+height: 18px;
+left: 1329px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* background-color: red; 
+ border: 3px solid red;
+  border-radius: 5px; 
+} */
+
+        .h {
+            position: absolute;
+            width: 572px;
+            height: 60px;
+            /* left: 478px;  */
+            top: 98px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 33px;
+            line-height: 60px;
+            color: #000000;
+            left: 440px;
+            /* identical to box height, or 125% */
+
+
+            color: #000000;
+
+        }
+
+        h1 {
+
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .color {
+            color: rgba(0, 132, 255, 1);
+        }
+
+        .paragragh {
+            position: absolute;
+            width: 560px;
+            height: 60px;
+            left: 1px;
+            top: 59px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+
+            text-align: center;
+
+        }
+
+        .box-sizing {
+            box-sizing: border-box;
+            position: absolute;
+            width: 623px;
+            height: 373px;
+            left: 1px;
+            top: 168px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 40px rgba(225, 225, 237, 0.6);
+            border-radius: 11px;
+        }
+
+        .hr {
+
+            border-top: 1px solid rgba(0, 0, 0, 0.07);
+            margin-top: 304px;
+
+        }
+
+        .btn {
+            /* Auto layout */
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 39px;
+            gap: 10px;
+            position: absolute;
+            width: 116px;
+            height: 47px;
+            left: 491px;
+            top: 315px;
+            background: #0085FF;
+            border-radius: 7px;
+        }
+
+        .btn:hover {
+            background-color: rgb(153, 13, 27);
+            color: #FAFAFA;
+        }
+
+        .box-sizing1 {
+            box-sizing: border-box;
+            position: absolute;
+            width: 267px;
+            height: 283px;
+            left: 660px;
+            top: 328px;
+            background: #FFFFFF;
+            box-shadow: 0px 3.81598px 19.0799px rgba(225, 225, 237, 0.6);
+            border-radius: 11px;
+        }
+
+        .dw {
+            position: absolute;
+            left: 109.5%;
+            right: 12.5%;
+            top: 281.5%;
+            bottom: 12.5%;
+            /* background: #0084FF; */
+
+        }
+
+        .rectangle {
+            position: absolute;
+            left: 109.5%;
+            right: 12.5%;
+            top: 328.5%;
+            bottom: 12.5%;
+        }
+
+        .delete {
+            position: absolute;
+            left: 109.5%;
+            right: 12.5%;
+            top: 376.5%;
+            bottom: 12.5%;
+        }
+
+        .cross {
+            position: absolute;
+            left: 87.25%;
+            right: 6.25%;
+            top: 2.25%;
+            bottom: 6.25%;
+
+        }
+
+        .star1 {
+            position: absolute;
+            left: 2.25%;
+            right: 6.25%;
+            top: 13.25%;
+            bottom: 6.25%;
+            height: 30px;
+
+        }
+
+        .star2 {
+            position: absolute;
+            left: 15.25%;
+            right: 13.25%;
+            top: 13.25%;
+            bottom: 6.25%;
+            height: 30px;
+        }
+
+        .star3 {
+            position: absolute;
+            left: 29.25%;
+            right: 13.25%;
+            top: 13.25%;
+            bottom: 6.25%;
+            height: 30px;
+
+        }
+
+        h3 {
+
+            position: absolute;
+            width: 157px;
+            height: 20px;
+            left: 12px;
+            top: 12px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 20px;
+            color: #868686;
+        }
+
+        .box-sizing2 {
+
+            position: absolute;
+            width: 239px;
+            height: 104px;
+            left: 674px;
+
+            top: 446px;
+            background: #F1F1F1;
+            border-radius: 10px;
+        }
+
+        .btn2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9.23741px 30.0216px;
+            gap: 7.7px;
+            position: absolute;
+            width: 107px;
+            height: 36.95px;
+            left: 89px;
+            top: 236.53px;
+            background: #407bb3;
+            border-radius: 5.38849px;
+        }
+
+        /* better clas */
+        /* .better {
+         //His much better then yesterday. 
+            position: absolute;
+  width: 1920px;
+  height: 406px;
+  left: 0px;
+  top: 800px;
+  background: #EDF6FD;
+}
+#text1{
+    position: absolute;
+width: 448px;
+height: 90px;
+left: 143px;
+top: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+// or 150% 
+
+
+color: #000000;
+
+} */
+        .container1 {
+            position: absolute;
+            width: 522px;
+            height: 276px;
+            Left: 110px;
+            top: 860px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px 2px rgba(225, 225, 237, 0.6);
+            border-radius: 16px;
+        }
+
+        .line {
+            position: absolute;
+            width: 522px;
+            height: 0px;
+            left: 0px;
+            top: 60px;
+
+            border: 1px solid #F1F1F1;
+        }
+
+        .lenght {
+            /* Start writing here.. */
+
+
+            position: absolute;
+            width: 116px;
+            height: 17px;
+            left: 43px;
+            top: 17px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 17px;
+            /* identical to box height, or 131% */
+
+
+            color: #868686;
+        }
+
+        .len {
+            position: absolute;
+            width: 307px;
+            height: 30px;
+            left: 43px;
+            top: 84px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+
+
+            color: #000000;
+        }
+
+        .color1 {
+            background-color: pink;
+            color: #000000;
+        }
+
+        .boxtext {
+            /* Rectangle 6 */
+
+
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 373px;
+            height: 64px;
+            left: 40px;
+            top: 157px;
+
+            background: #FFFFFF;
+            border: 1px solid #F5F5F5;
+            box-shadow: 0px -2px 11px #EFEFEF, 0px 4px 10px #EFEFEF;
+            border-radius: 8px;
+        }
+
+        .len2 {
+            position: absolute;
+            width: 307px;
+            height: 30px;
+            left: 43px;
+            top: 4px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 43px;
+            color: #000000;
+        }
+
+        .color1 {
+            color: #0085FF
+        }
+
+        .line2 {
+            position: absolute;
+            width: 522px;
+            height: 0px;
+            left: 0px;
+            top: 240px;
+
+            border: 1px solid #F1F1F1;
+        }
+
+        .tag1 {
+            /* Schrijven zonder privacyschendingen */
+
+
+            position: absolute;
+            width: 417px;
+            height: 90px;
+            left: 891px;
+            top: 870px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 45px;
+            color: #000000;
+
+
+            color: #000000;
+
+        }
+
+        .paragragh1 {
+            position: absolute;
+            width: 457px;
+            height: 120px;
+            left: 898px;
+            top: 987px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+
+
+            color: #000000
+        }
+
+        .better2 {
+            /* His much better then yesterday.  */
+            position: absolute;
+            width: 1920px;
+            height: 550px;
+            left: 0px;
+            top: 1237px;
+            background: #EDF6FD;
+        }
+
+        #text1 {
+            position: absolute;
+            width: 448px;
+            height: 90px;
+            left: 143px;
+            top: 40px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 45px;
+
+
+
+            color: #000000;
+
+        }
+
+        .rectangle1 {
+
+            position: absolute;
+            width: 519px;
+            height: 276px;
+            left: 890px;
+            top: 56px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.13);
+            border-radius: 16px;
+        }
+
+        .rectangle2 {
+
+            position: absolute;
+            width: 519px;
+            height: 276px;
+            left: 755px;
+            top: 242px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.13);
+            border-radius: 16px;
+        }
+
+        .p1 {
+            position: absolute;
+            width: 457px;
+            height: 48px;
+            left: 145px;
+            top: 139px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+
+
+            /* color: #000000; */
+        }
+
+        .p2 {
+            position: absolute;
+            width: 457px;
+            height: 48px;
+            left: 145px;
+            top: 139px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+
+        }
+
+        .arrow {
+            box-sizing: border-box;
+            position: absolute;
+            width: 15px;
+            height: 12px;
+            left: 118px;
+            top: 199px;
+            /* border: 0; */
+            /* border: 1px solid #000000; */
+        }
+
+        .arrow1 {
+            box-sizing: border-box;
+            position: absolute;
+            width: 15px;
+            height: 12px;
+            left: 118px;
+            top: 226px;
+
+        }
+
+        .arrow2 {
+            box-sizing: border-box;
+            position: absolute;
+            width: 15px;
+            height: 12px;
+            left: 118px;
+            top: 278px;
+
+        }
+
+        .arrowtext {
+            position: absolute;
+            width: 457px;
+            height: 24px;
+            left: 146px;
+            top: 191px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+
+        }
+
+        .arrowtext1 {
+            position: absolute;
+            width: 457px;
+            height: 24px;
+            left: 146px;
+            top: 217px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+
+        }
+
+        .arrowtext2 {
+            position: absolute;
+            width: 457px;
+            height: 24px;
+            left: 145px;
+            top: 271px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .hrn {
+            position: absolute;
+            width: 522px;
+            height: 0px;
+            left: 0px;
+            top: 46px;
+
+            border: 1px solid #F1F1F1;
+            background-color: red;
+        }
+
+        .kenght2 {
+            position: absolute;
+            width: 116px;
+            height: 17px;
+            left: 49px;
+            top: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #868686;
+        }
+
+        .vector {
+            /* Vector */
+
+
+            position: absolute;
+            left: 90.25%;
+            right: 6.25%;
+            top: 4.25%;
+            bottom: 6.25%;
+            /* background: #F15151; */
+
+            /* background: #F15151; */
+        }
+
+        .twenty {
+
+            position: absolute;
+            width: 416px;
+            height: 104px;
+            left: 87px;
+            top: 84px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #000000;
+
+        }
+
+        .vector2 {
+            /* Vector */
+
+            position: absolute;
+            left: 5.25%;
+            right: 6.25%;
+            top: 5.25%;
+            bottom: 6.25%;
+
+            width: 26px;
+
+            /* background: #F15151; */
+        }
+
+        .vector3 {
+            position: absolute;
+            left: 90.25%;
+            right: 6.25%;
+            top: 6.25%;
+            bottom: 6.25%;
+
+            /* background: #0085FF; */
+        }
+
+        .center {
+            /* Be Careful */
+
+
+            position: absolute;
+            width: 125px;
+            height: 30px;
+            left: 198px;
+            top: 62px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 30px;
+            /* identical to box height, or 120% */
+
+
+            color: #0084FF;
+
+        }
+
+        .l1 {
+
+            position: absolute;
+            width: 117px;
+            height: 0px;
+            left: -1px;
+            top: 35px;
+            border: 1px solid #F1F1F1;
+        }
+
+        .color4 {
+            position: absolute;
+            width: 107px;
+            height: 30px;
+            left: 207px;
+            top: 116px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+
+
+            color: #FFFFFF;
+
+
+
+        }
+
+        .color5 {
+            position: absolute;
+            width: 117px;
+            height: 28px;
+            left: -9px;
+            top: 1px;
+            background: #88C6FF;
+            color: #FAFAFA;
+            border-radius: 3px;
+            text-align: center;
+            /* identical to box height, or 150% */
+        }
+
+        .text7 {
+            position: absolute;
+            width: 173px;
+            height: 90px;
+            left: 174px;
+            top: 161px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 188% */
+
+            text-align: center;
+
+            color: #000000;
+
+        }
+
+        .container2 {
+            position: absolute;
+            width: 413px;
+            height: 130px;
+            left: 204px;
+            top: 1826px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px 2px rgba(225, 225, 237, 0.6);
+            border-radius: 9px;
+
+        }
+
+        .better3 {
+            /* Rectangle 3 */
+
+
+            position: absolute;
+            width: 1920px;
+            height: 380px;
+            left: 0px;
+            top: 2831px;
+
+            /* background: #EDF6FD; */
+        }
+
+        .ellipse {
+
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 267px;
+            top: 1860px;
+            background: url(image.png);
+
+        }
+
+        .smith {
+            /* Michael Smith */
+            position: absolute;
+            width: 108px;
+            height: 24px;
+            left: 344px;
+            top: 1863px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 24px;
+        }
+
+        .usa {
+            /* California, USA */
+            position: absolute;
+            width: 92px;
+            height: 17px;
+            left: 345px;
+            top: 1889px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 15px;
+            color: #8C8C8C
+                /* identical to box height, or 131% */
+
+
+                /* color: #8C8C8C; */
+        }
+
+        .will {
+            /* Ellipse 4 */
+
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 262px;
+            /* top: px; */
+            background: url(image.png);
+            bottom: 1167px;
+        }
+
+        .chen {
+            /* Ellipse 4 */
+
+
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 262px;
+            background: url(image.png);
+            bottom: 1070px;
+
+
+        }
+
+        .jackson {
+            /* Will Jackson */
+
+            position: absolute;
+            width: 96px;
+            height: 24px;
+            left: 336px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            bottom: 1185px;
+            color: #000000;
+        }
+
+        .uk {
+
+            position: absolute;
+            width: 72px;
+            height: 17px;
+            left: 341px;
+            bottom: 1169px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: #8C8C8C;
+        }
+
+        .kun {
+            position: absolute;
+            width: 96px;
+            height: 24px;
+            left: 336px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            bottom: 1090px;
+            color: #000000;
+        }
+
+        .china {
+            position: absolute;
+            width: 72px;
+            height: 17px;
+            left: 331px;
+            bottom: 1074px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: #8C8C8C;
+        }
+
+        .it {
+
+            /* identical to box height, or 158% */
+
+
+            position: absolute;
+            width: 312px;
+            height: 38px;
+            left: 901px;
+            bottom: 1343px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 27px;
+            line-height: 38px;
+            color: #000000;
+        }
+
+        .icon {
+
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            left: 903px;
+            bottom: 1324px;
+
+            /* background: #FFB546; */
+        }
+
+        .icon1 {
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            left: 928px;
+            bottom: 1324px;
+        }
+
+        .icon2 {
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            left: 980px;
+            bottom: 1324px;
+        }
+
+        .icon3 {
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            left: 950px;
+            bottom: 1324px;
+        }
+
+        .icon4 {
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            left: 973px;
+            bottom: 1324px;
+        }
+
+        .icon5 {
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            left: 995px;
+            bottom: 1324px;
+        }
+
+        .icon6 {
+            position: absolute;
+            width: 522px;
+            height: 240px;
+            left: 895px;
+            bottom: 1064px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+
+
+            color: #000000;
+
+        }
+
+        .another {
+            position: absolute;
+            width: 522px;
+            height: 240px;
+            left: -1px;
+            top: 152px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .better4 {
+            position: absolute;
+            width: 1920px;
+            height: 312px;
+            left: 0px;
+            top: 2217px;
+
+            background: #EDF6FD;
+        }
+
+        .icon7 {
+            position: absolute;
+            width: 1059px;
+            height: 80px;
+            left: 313px;
+            top: 72px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 40px;
+            color: #000000;
+        }
+
+        .icon8 {
+
+
+            /* identical to box height, or 160% */
+
+            position: absolute;
+            width: 1059px;
+            height: 80px;
+            left: 452px;
+            top: 167px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 40px;
+            color: #000000;
+        }
+
+        .icon9 {
+            color: #0084FF;
+        }
+
+        /*  .icon10 {
+
+            position: absolute;
+            width: 575px;
+            height: 45px;
+            left: 444px;
+            top: 358px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 45px;
+             identical to box height, or 150%  
+
+
+            color: #000000;
+        }*/
+
+        .icon47 {
+
+            /* position: absolute;
+            width: 1078px;
+            height: 325px;
+            left: 252px;
+            top: 355px; */
+            position: absolute;
+            width: 1078px;
+            height: 268px;
+            left: 231px;
+            top: 355px;
+
+
+        }
+        .body {
+  background-color: tan;
+  color: black;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
+
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="link ">
+            <img src="Group 58.svg" class="logo" alt="">
+            <nav class="links ">
+                <ul>
+                    <li><a href="#" class="p">pricing</a></li>
+                    <li><a href="#" class="n">About us</a></li>
+                    <li><a href="#" class="m">Login</a></li>
+                    <li><a href="#" class="o">Register</a></li>
+                </ul>
+                <div class="h">
+                    <h1>De <span class="color">privacy</span> Schrijfassistent</h1>
+                    <p class="paragragh">Verbeter Jouw door de slimme eenvoudige ondersteuning van corrtex <br> Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Fugit labore, ipsum ab debitis optio, eligend
+                    </p>
+                    <div class="box-sizing">
+                        <h3>Start writing here..</h3>
+                        <hr class="hr">
+                        <button type="button" class="btn btn-outline-primary btn">fix all error</button>
+                    </div>
+                    <div>
+                        <img src="Vector (4).svg" class="dw" alt="">
+                        <img src="Vector (6).svg" class="rectangle" alt="">
+                        <img src="delete.svg" class="delete" alt="">
+                    </div>
+                    <div class="box-sizing1">
+                        <h3>Submit your feedback...</h3>
+                        <img src="Star 6.svg" class="star1" alt=""><img src="Star 7.svg" class="star2" alt=""><img
+                            src="Star 8 (1).svg" class="star3" alt="">
+                        <img src="Vector (7).svg" class="cross" alt="">
+                        <button type="button" class="btn btn-outline-primary btn2">Submit</button>
+                    </div>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        class="box-sizing2"></textarea>
+                </div>
+            </nav>
+            <div class="container1 ">
+                <h4 class="lenght"> Start writing here</h4>
+                <h3 class="len"><span class="color1"> His </span>much better <span class="color">then</span> yesterday
+                </h3>
+                <div class="boxtext ">
+                    <h3 class="len2"><span class="color1">He's</span> much better <span class="color1">then</span>
+                        yesterday.</h3>
+                </div>
+                <hr class="line">
+                <hr class="line2">
+            </div>
+            <h1 class="tag1">Schrijven zonder <br> privacyschendingen</h1>
+            <p class="paragragh1">Corrtex heeft een tool ontwikkeld die tekst analyseert en bijzondere persoonsgegevens
+                detecteert, vergelijkbaar met de manier waarop systemen grammaticale fouten detecteren en
+                verbetersuggesties bieden. <br> Gescande teksten worden niet opgeslagen, we respecteren uw privacy</p>
+            <div class="better2 ">
+                <h1 id="text1"> Vetrouwen is goed,controle <br> is better</h1>
+                <p class="p1">Middels ruim 5000+ datapunten ondersteund Corrtex jou bij <br> het naleven van de AVG:</p>
+                <img src="Arrow.svg" class="arrow" alt="">
+                <img src="Arrow.svg" class="arrow1" alt="">
+                <img src="Arrow.svg" class="arrow2" alt="">
+                <p class="arrowtext">Minimaliseer het gebruik van bijzondere persoonsgegevens.</p>
+                <p class="arrowtext1">Verkrijg een professionele en privacy compliant uitstraling <br> door foutieve
+                    communicatie te beperken. </p>
+                <p class="arrowtext2">Voorkom reputatieschade en hoge boetes als gevolg van <br> onjuiste communicatie.
+                </p>
+
+                <div class="rectangle1">
+                    <hr class="hrn">
+                    <h4 class="kenght2">Start writting here..</h4>
+                    <img src="css/Vector (9).svg" class="vector" alt="">
+                    <p class="twenty"> Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quae iure obcaecati
+                        veniam quasi <span class="color1">laudantium </span> est, <br> nihil ut illo id qui, recusandae
+                        libero totam itaque <br> beatae ad nemo tempore alias. Impedit</p>
+                </div>
+                <div class="rectangle2">
+                    <img src="css/Vector (9).svg" class="vector2" alt=""> <img src="Vector (7).svg" class="vector3"
+                        alt="">
+                    <h2 class="center">Be Careful
+                        <hr class="l1">
+                    </h2>
+                    <h2 class="color4"><span class="color5">laudantium</span> </h2>
+                    <p class="text7"> Please be careful,<br> do not use this word in <br> your communication </p>
+                </div>
+            </div>
+            <div class="container2 ">
+                <img src="" alt="">
+            </div>
+            <div class="container4 ">
+                <img src="css/Ellipse 4.svg" class="ellipse" alt="">
+                <h1 class="smith">Michael Smith</h1>
+                <p class="usa">california, USA</p>
+            </div>
+            <div class="better3 s">
+                <img src="css/ak.svg" class="will" alt="">
+                <h1 class="jackson">Will Jackson</h1>
+                <p class="uk">London,Uk</p>
+                <img src="css/Ellipse 4 (2).svg" class="chen" alt="">
+                <h1 class="kun">chen kun</h1>
+                <p class="china">Beijina,china</p>
+                <h1 class="it">It was a great experience!</h1>
+                <img src="Star 6.svg" class="icon" alt=""><img src="Star 6.svg" class="icon4" alt="">
+                <img src="Star 7.svg" class="icon1" alt=""><img src="Star 6.svg" class="icon5" alt="">
+                <img src="Star 8 (1).svg" class="icon3" alt="">
+                <p class="icon6"> This can be done in a multitude of wayJ for example ifyou are <br> producing a
+                    brochure selling wellington boots then start every <br> paragraph spelling out 'buy our wellington
+                    boots' or better still <br> 'you have no choice but to buy our wellington boots now get <br> outyour
+                    cheque book and buy them - NOW!' <br>
+                    <span class="another"> Another crafty method iJ to doctor imageJ in photoJhop so <br> that on an
+                        innocent picture of a tree for example carved into <br> the bark is a meJJage along the lineJ
+                        of'U Luv Wellington boots' <br> You get the idea.</span>
+                </p>
+            </div>
+            <div class="better4">
+                <p class="icon7">Naleving van privacywetgeving is eenvoudiger dan je denkt: Corrtex doet het werk <br>
+                    terwijl jij je op jouw werk concentreert. Zo maak je privacyschendingen verleden tijd!</p>
+                <p class="icon8"> <span class="icon9">Registreer </span> en neem deel aan de private testomgeving.</p>
+                <!-- <h1 class="icon10"> Trusted by our partners and customers</h1> -->
+                <img src="css/Group 47.svg" class="icon47" alt="">
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
